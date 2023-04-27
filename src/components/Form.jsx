@@ -25,9 +25,13 @@ function Form() {
                     <label htmlFor="pais" >Pais</label>
                     <select id="pais" name="pais" onChange={buscador} value={pais}>
                         <option value="">--Selecciona tu País</option>
-                        <option value="ES">España</option>
-                        <option value="US">EEUU</option>
-                        <option value="FR">Francia</option>
+                        <option value="ES">Spain</option>
+                        <option value="US">USA</option>
+                        <option value="FR">France</option>
+                        <option value="PT">Portugal</option>
+                        <option value="GB">United Kingdom</option>
+                        <option value="IT">Italy</option>
+                        <option value="DE">Germany</option>
                     </select>
                 </div>
                 <input type="submit" value='Clima' />
